@@ -15,5 +15,6 @@ spec:
       containers:
       - name: simple-argo-docker-app
         image: simple-argo-docker-app:latest
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000

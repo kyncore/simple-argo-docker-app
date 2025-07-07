@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/your-username/your-repo.git' # Replace with your repository URL
+    repoURL: 'https://github.com/kyncore/simple-argo-docker-app.git' # Replace with your repository URL
     path: k8s
     targetRevision: HEAD
   destination:
