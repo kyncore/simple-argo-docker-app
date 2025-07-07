@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-argo-docker-app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: simple-argo-docker-app
+  template:
+    metadata:
+      labels:
+        app: simple-argo-docker-app
+    spec:
+      containers:
+      - name: simple-argo-docker-app
+        image: simple-argo-docker-app:latest
+        ports:
+        - containerPort: 3000

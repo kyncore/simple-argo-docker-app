@@ -1,0 +1,12 @@
+{
+  "name": "simple-argo-docker-app-backend",
+  "version": "1.0.0",
+  "description": "A simple backend API for the ArgoCD Docker App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
